@@ -1,19 +1,32 @@
-This directory includes a few sample datasets to get you started.
+# 🏬 Retail Store Sales Analysis Portfolio
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+## 📌 Project Objective
+This data analytics project evaluates transaction behavior across multi-regional brick-and-mortar stores to isolate revenue trends, track regional retail performance, and identify customer payment preferences.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+---
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+## 🛠️ Technical Stack & Tools Used
+* **Programming Language:** Python 3
+* **Data Manipulation:** Pandas
+* **Visualization Libraries:** Matplotlib, Seaborn
+* **Development Environment:** Google Colab
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
+---
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+## 🧹 Data Cleaning Applied
+* **Imputed Missing Values:** Reconstructed missing unit prices automatically using mathematical aggregates (`TotalAmount / Quantity`).
+* **Standardized Formats:** Organized data fields cleanly for effortless business reporting.
+
+---
+
+## 📊 Business Insights & Visualizations
+
+### 1. Revenue Trends by Store Location
+Chicago and New York represent our key revenue anchors, while the western retail center (Los Angeles) requires active localized marketing deployments to catch up.
+
+![Store Location Performance](location_sales.png)
+
+### 2. Transaction Type Distribution Analysis
+Credit Cards and UPI combine to command a majority share of regional checkout pipelines, demonstrating the high value of digital processing availability.
+
+![Payment Method Split](payment_methods.png)
