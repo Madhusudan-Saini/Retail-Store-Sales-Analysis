@@ -104,3 +104,6 @@ In summary, this data pipeline successfully transforms raw, imperfect transactio
 * **Database Integration:** Move from a flat `.csv` structure to a live relational database schema by embedding native **PostgreSQL query logic** for faster processing.
 * **Live Interactive Dashboards:** Migrate these static image graphs into dynamic **Power BI or Tableau dashboards** to allow users to filter metrics by time intervals.
 * **Predictive Forecasting:** Introduce machine learning algorithms (like Linear Regression or Time Series Forecasting) to project next quarter's inventory needs based on current regional sales volumes.
+![Store Location Performance](location_sales.png)
+
+![Payment Method Split](payment_methods.png)
