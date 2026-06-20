@@ -1,0 +1,9 @@
+TransactionID,CustomerID,ProductCategory,ItemName,UnitPrice,Quantity,TotalAmount,PaymentMethod,StoreLocation
+TXN101,C501,Electronics,Wireless Mouse,25.0,2,50.0,Credit Card,New York
+TXN102,C502,Clothing,Winter Jacket,120.0,1,120.0,UPI,Chicago
+TXN103,C503,Home,Coffee Mug,,3,45.0,Cash,Los Angeles
+TXN104,C504,Electronics,Gaming Keyboard,85.0,1,85.0,Credit Card,New York
+TXN105,C505,Clothing,Running Shoes,90.0,2,180.0,Debit Card,Chicago
+TXN106,C501,Electronics,Wireless Mouse,25.0,1,25.0,Credit Card,New York
+TXN107,C506,Home,Desk Lamp,35.0,1,35.0,UPI,Los Angeles
+TXN108,C507,Electronics,Bluetooth Speaker,55.0,2,110.0,Cash,Chicago
