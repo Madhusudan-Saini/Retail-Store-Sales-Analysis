@@ -12,14 +12,10 @@ This directory follows an organized, industry-standard directory tree layout to 
 
 ```text
 📦 retail-store-sales-analysis
- ┣ 📂 data
- ┃ ┗ 📜 retail_sales.csv         <- Raw and processed spreadsheet dataset
- ┣ 📂 notebooks
- ┃ ┗ 📜 retail_analytics.ipynb   <- Core Python data cleaning & analysis engine
- ┣ 📂 visualizations
- ┃ ┣ 📜 location_sales.png       <- Regional store performance chart image
- ┃ ┗ 📜 payment_methods.png      <- Customer payment split pie chart image
- ┗ 📜 README.md                  <- Main project portfolio presentation page
+ ┣ 📜 retail_sales.csv          <- Raw and processed spreadsheet dataset
+ ┣ 📜 location_sales.png        <- Regional store performance chart image
+ ┣ 📜 payment_methods.png       <- Customer payment split pie chart image
+ ┗ 📜 README.md                 <- Main project portfolio presentation page
 ```
 
 ---
@@ -80,12 +76,12 @@ The outputs of the cleaning and analysis steps are visually compiled below:
 ### Figure 1: Regional Store Revenue Anchors
 This bar chart tracks overall revenue metrics across key retail centers, exposing a distinct gap between leading distribution points and underperforming regions.
 
-![Store Location Performance](visualizations/location_sales.png)
+![Store Location Performance](location_sales.png)
 
 ### Figure 2: Customer Checkout Channel Split
 This pie chart details transaction category allocations, tracking cash pipelines against electronic processing gateways.
 
-![Payment Method Split](visualizations/payment_methods.png)
+![Payment Method Split](payment_methods.png)
 
 ---
 
@@ -104,6 +100,3 @@ In summary, this data pipeline successfully transforms raw, imperfect transactio
 * **Database Integration:** Move from a flat `.csv` structure to a live relational database schema by embedding native **PostgreSQL query logic** for faster processing.
 * **Live Interactive Dashboards:** Migrate these static image graphs into dynamic **Power BI or Tableau dashboards** to allow users to filter metrics by time intervals.
 * **Predictive Forecasting:** Introduce machine learning algorithms (like Linear Regression or Time Series Forecasting) to project next quarter's inventory needs based on current regional sales volumes.
-![Store Location Performance](location_sales.png)
-
-![Payment Method Split](payment_methods.png)
